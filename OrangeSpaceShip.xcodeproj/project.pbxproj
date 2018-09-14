@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95E7B3BE214C370800E5CB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7B3BD214C370800E5CB64 /* AppDelegate.swift */; };
+		95E7B3C0214C370800E5CB64 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E7B3BF214C370800E5CB64 /* art.scnassets */; };
+		95E7B3C2214C370800E5CB64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7B3C1214C370800E5CB64 /* ViewController.swift */; };
+		95E7B3C5214C370800E5CB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E7B3C3214C370800E5CB64 /* Main.storyboard */; };
+		95E7B3C7214C370A00E5CB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E7B3C6214C370A00E5CB64 /* Assets.xcassets */; };
+		95E7B3CA214C370A00E5CB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E7B3C8214C370A00E5CB64 /* LaunchScreen.storyboard */; };
+		95E7B3D5214C370A00E5CB64 /* OrangeSpaceShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7B3D4214C370A00E5CB64 /* OrangeSpaceShipTests.swift */; };
+		95E7B3E0214C370A00E5CB64 /* OrangeSpaceShipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E7B3DF214C370A00E5CB64 /* OrangeSpaceShipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95E7B3D1214C370A00E5CB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95E7B3B2214C370800E5CB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E7B3B9214C370800E5CB64;
+			remoteInfo = OrangeSpaceShip;
+		};
+		95E7B3DC214C370A00E5CB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95E7B3B2214C370800E5CB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E7B3B9214C370800E5CB64;
+			remoteInfo = OrangeSpaceShip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95E7B3BA214C370800E5CB64 /* OrangeSpaceShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeSpaceShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E7B3BD214C370800E5CB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95E7B3BF214C370800E5CB64 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		95E7B3C1214C370800E5CB64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95E7B3C4214C370800E5CB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95E7B3C6214C370A00E5CB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95E7B3C9214C370A00E5CB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95E7B3CB214C370A00E5CB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E7B3D0214C370A00E5CB64 /* OrangeSpaceShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeSpaceShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E7B3D4214C370A00E5CB64 /* OrangeSpaceShipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeSpaceShipTests.swift; sourceTree = "<group>"; };
+		95E7B3D6214C370A00E5CB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E7B3DB214C370A00E5CB64 /* OrangeSpaceShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeSpaceShipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E7B3DF214C370A00E5CB64 /* OrangeSpaceShipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeSpaceShipUITests.swift; sourceTree = "<group>"; };
+		95E7B3E1214C370A00E5CB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E7B3B7214C370800E5CB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E7B3CD214C370A00E5CB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E7B3D8214C370A00E5CB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95E7B3B1214C370800E5CB64 = {
+			isa = PBXGroup;
+			children = (
+				95E7B3BC214C370800E5CB64 /* OrangeSpaceShip */,
+				95E7B3D3214C370A00E5CB64 /* OrangeSpaceShipTests */,
+				95E7B3DE214C370A00E5CB64 /* OrangeSpaceShipUITests */,
+				95E7B3BB214C370800E5CB64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95E7B3BB214C370800E5CB64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95E7B3BA214C370800E5CB64 /* OrangeSpaceShip.app */,
+				95E7B3D0214C370A00E5CB64 /* OrangeSpaceShipTests.xctest */,
+				95E7B3DB214C370A00E5CB64 /* OrangeSpaceShipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E7B3BC214C370800E5CB64 /* OrangeSpaceShip */ = {
+			isa = PBXGroup;
+			children = (
+				95E7B3BD214C370800E5CB64 /* AppDelegate.swift */,
+				95E7B3BF214C370800E5CB64 /* art.scnassets */,
+				95E7B3C1214C370800E5CB64 /* ViewController.swift */,
+				95E7B3C3214C370800E5CB64 /* Main.storyboard */,
+				95E7B3C6214C370A00E5CB64 /* Assets.xcassets */,
+				95E7B3C8214C370A00E5CB64 /* LaunchScreen.storyboard */,
+				95E7B3CB214C370A00E5CB64 /* Info.plist */,
+			);
+			path = OrangeSpaceShip;
+			sourceTree = "<group>";
+		};
+		95E7B3D3214C370A00E5CB64 /* OrangeSpaceShipTests */ = {
+			isa = PBXGroup;
+			children = (
+				95E7B3D4214C370A00E5CB64 /* OrangeSpaceShipTests.swift */,
+				95E7B3D6214C370A00E5CB64 /* Info.plist */,
+			);
+			path = OrangeSpaceShipTests;
+			sourceTree = "<group>";
+		};
+		95E7B3DE214C370A00E5CB64 /* OrangeSpaceShipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95E7B3DF214C370A00E5CB64 /* OrangeSpaceShipUITests.swift */,
+				95E7B3E1214C370A00E5CB64 /* Info.plist */,
+			);
+			path = OrangeSpaceShipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95E7B3B9214C370800E5CB64 /* OrangeSpaceShip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E7B3E4214C370A00E5CB64 /* Build configuration list for PBXNativeTarget "OrangeSpaceShip" */;
+			buildPhases = (
+				95E7B3B6214C370800E5CB64 /* Sources */,
+				95E7B3B7214C370800E5CB64 /* Frameworks */,
+				95E7B3B8214C370800E5CB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrangeSpaceShip;
+			productName = OrangeSpaceShip;
+			productReference = 95E7B3BA214C370800E5CB64 /* OrangeSpaceShip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95E7B3CF214C370A00E5CB64 /* OrangeSpaceShipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E7B3E7214C370A00E5CB64 /* Build configuration list for PBXNativeTarget "OrangeSpaceShipTests" */;
+			buildPhases = (
+				95E7B3CC214C370A00E5CB64 /* Sources */,
+				95E7B3CD214C370A00E5CB64 /* Frameworks */,
+				95E7B3CE214C370A00E5CB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E7B3D2214C370A00E5CB64 /* PBXTargetDependency */,
+			);
+			name = OrangeSpaceShipTests;
+			productName = OrangeSpaceShipTests;
+			productReference = 95E7B3D0214C370A00E5CB64 /* OrangeSpaceShipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95E7B3DA214C370A00E5CB64 /* OrangeSpaceShipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E7B3EA214C370A00E5CB64 /* Build configuration list for PBXNativeTarget "OrangeSpaceShipUITests" */;
+			buildPhases = (
+				95E7B3D7214C370A00E5CB64 /* Sources */,
+				95E7B3D8214C370A00E5CB64 /* Frameworks */,
+				95E7B3D9214C370A00E5CB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E7B3DD214C370A00E5CB64 /* PBXTargetDependency */,
+			);
+			name = OrangeSpaceShipUITests;
+			productName = OrangeSpaceShipUITests;
+			productReference = 95E7B3DB214C370A00E5CB64 /* OrangeSpaceShipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95E7B3B2214C370800E5CB64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Татьяна";
+				TargetAttributes = {
+					95E7B3B9214C370800E5CB64 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					95E7B3CF214C370A00E5CB64 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 95E7B3B9214C370800E5CB64;
+					};
+					95E7B3DA214C370A00E5CB64 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 95E7B3B9214C370800E5CB64;
+					};
+				};
+			};
+			buildConfigurationList = 95E7B3B5214C370800E5CB64 /* Build configuration list for PBXProject "OrangeSpaceShip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95E7B3B1214C370800E5CB64;
+			productRefGroup = 95E7B3BB214C370800E5CB64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E7B3B9214C370800E5CB64 /* OrangeSpaceShip */,
+				95E7B3CF214C370A00E5CB64 /* OrangeSpaceShipTests */,
+				95E7B3DA214C370A00E5CB64 /* OrangeSpaceShipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95E7B3B8214C370800E5CB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E7B3C0214C370800E5CB64 /* art.scnassets in Resources */,
+				95E7B3CA214C370A00E5CB64 /* LaunchScreen.storyboard in Resources */,
+				95E7B3C7214C370A00E5CB64 /* Assets.xcassets in Resources */,
+				95E7B3C5214C370800E5CB64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E7B3CE214C370A00E5CB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E7B3D9214C370A00E5CB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95E7B3B6214C370800E5CB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E7B3C2214C370800E5CB64 /* ViewController.swift in Sources */,
+				95E7B3BE214C370800E5CB64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E7B3CC214C370A00E5CB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E7B3D5214C370A00E5CB64 /* OrangeSpaceShipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E7B3D7214C370A00E5CB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E7B3E0214C370A00E5CB64 /* OrangeSpaceShipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95E7B3D2214C370A00E5CB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95E7B3B9214C370800E5CB64 /* OrangeSpaceShip */;
+			targetProxy = 95E7B3D1214C370A00E5CB64 /* PBXContainerItemProxy */;
+		};
+		95E7B3DD214C370A00E5CB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95E7B3B9214C370800E5CB64 /* OrangeSpaceShip */;
+			targetProxy = 95E7B3DC214C370A00E5CB64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95E7B3C3214C370800E5CB64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E7B3C4214C370800E5CB64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95E7B3C8214C370A00E5CB64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E7B3C9214C370A00E5CB64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95E7B3E2214C370A00E5CB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95E7B3E3214C370A00E5CB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95E7B3E5214C370A00E5CB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrangeSpaceShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TatsianaGoncharova.OrangeSpaceShip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95E7B3E6214C370A00E5CB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrangeSpaceShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TatsianaGoncharova.OrangeSpaceShip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95E7B3E8214C370A00E5CB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrangeSpaceShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TatsianaGoncharova.OrangeSpaceShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeSpaceShip.app/OrangeSpaceShip";
+			};
+			name = Debug;
+		};
+		95E7B3E9214C370A00E5CB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrangeSpaceShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TatsianaGoncharova.OrangeSpaceShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeSpaceShip.app/OrangeSpaceShip";
+			};
+			name = Release;
+		};
+		95E7B3EB214C370A00E5CB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrangeSpaceShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TatsianaGoncharova.OrangeSpaceShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrangeSpaceShip;
+			};
+			name = Debug;
+		};
+		95E7B3EC214C370A00E5CB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrangeSpaceShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TatsianaGoncharova.OrangeSpaceShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrangeSpaceShip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95E7B3B5214C370800E5CB64 /* Build configuration list for PBXProject "OrangeSpaceShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E7B3E2214C370A00E5CB64 /* Debug */,
+				95E7B3E3214C370A00E5CB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E7B3E4214C370A00E5CB64 /* Build configuration list for PBXNativeTarget "OrangeSpaceShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E7B3E5214C370A00E5CB64 /* Debug */,
+				95E7B3E6214C370A00E5CB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E7B3E7214C370A00E5CB64 /* Build configuration list for PBXNativeTarget "OrangeSpaceShipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E7B3E8214C370A00E5CB64 /* Debug */,
+				95E7B3E9214C370A00E5CB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E7B3EA214C370A00E5CB64 /* Build configuration list for PBXNativeTarget "OrangeSpaceShipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E7B3EB214C370A00E5CB64 /* Debug */,
+				95E7B3EC214C370A00E5CB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95E7B3B2214C370800E5CB64 /* Project object */;
+}
